@@ -1,0 +1,25 @@
+{
+	"name": "backend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "npx nodemon index.js"
+	},
+	"author": "Trip1eLift",
+	"license": "ISC",
+	"dependencies": {
+		"bcryptjs": "2.4.0",
+		"express": "4.21.1",
+		"jsonwebtoken": "8.2.0",
+		"multer": "1.4.2",
+		"sqlite3": "5.0.2",
+		"uuid": "8.3.2",
+		"@types/node": "9.6.51",
+		"nodemailer": "6.4.0"
+	},
+	"devDependencies": {
+		"nodemon": "2.0.16"
+	}
+}
